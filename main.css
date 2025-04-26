@@ -1,19 +1,33 @@
-
-
-h1 {
-  font-size: 40px;
-  font-family: Arial
-}
-h2 {
-  font-size: 25px;
-  font-family: Arial
-}
-h3 {
-  font-family: Arial
-}
-p {
-  font-size: 14px;
-  font-family: Arial
+.site-header {
+  background-color: #00843D; /* Deakin green */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
 }
 
+.site-header .logo {
+  height: 50px;
+  width: auto;
+}
 
+/* Table Styling */
+.unit-details {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.unit-details th, .unit-details td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.unit-details th {
+  background-color: #f4f4f4;
+  color: #333;
+}
